@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Examination Result</title>
+</head>
+
+<body>
+
+    <h1>Student Examination Result Processing System</h1>
+
+    <form action="StudentResultServlet" method="post">
+
+        <label>Student Name:</label>
+        <input type="text" name="studentName" required>
+
+        <br><br>
+
+        <label>Register Number:</label>
+        <input type="text" name="registerNo" required>
+
+        <br><br>
+
+        <label>Java Mark:</label>
+        <input type="number" name="java" min="0" max="100" required>
+
+        <br><br>
+
+        <label>Database Mark:</label>
+        <input type="number" name="database" min="0" max="100" required>
+
+        <br><br>
+
+        <label>Web Technology Mark:</label>
+        <input type="number" name="web" min="0" max="100" required>
+
+        <br><br>
+
+        <label>Computer Networks Mark:</label>
+        <input type="number" name="networks" min="0" max="100" required>
+
+        <br><br>
+
+        <label>Software Engineering Mark:</label>
+        <input type="number" name="software" min="0" max="100" required>
+
+        <br><br>
+
+        <input type="submit" value="Calculate Result">
+
+    </form>
+
+</body>
+
+</html>
